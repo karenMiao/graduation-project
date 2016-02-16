@@ -10,9 +10,14 @@
 		1D6D87461C71723400D18C7C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6D87451C71723400D18C7C /* main.m */; };
 		1D6D87491C71723400D18C7C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6D87481C71723400D18C7C /* AppDelegate.m */; };
 		1D6D874C1C71723400D18C7C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6D874B1C71723400D18C7C /* ViewController.m */; };
-		1D6D874F1C71723400D18C7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D6D874D1C71723400D18C7C /* Main.storyboard */; };
 		1D6D87511C71723400D18C7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D6D87501C71723400D18C7C /* Assets.xcassets */; };
-		1D6D87541C71723400D18C7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D6D87521C71723400D18C7C /* LaunchScreen.storyboard */; };
+		1D6D87671C72FA1A00D18C7C /* checkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6D87661C72FA1A00D18C7C /* checkViewController.m */; };
+		1D6D87731C730DEB00D18C7C /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6D876B1C730DEB00D18C7C /* ALView+PureLayout.m */; };
+		1D6D87741C730DEB00D18C7C /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6D876D1C730DEB00D18C7C /* NSArray+PureLayout.m */; };
+		1D6D87751C730DEB00D18C7C /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6D876F1C730DEB00D18C7C /* NSLayoutConstraint+PureLayout.m */; };
+		1D6D87781C730ED100D18C7C /* checkListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6D87771C730ED100D18C7C /* checkListModel.m */; };
+		1D6D877B1C7311E200D18C7C /* checkSceneListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6D877A1C7311E200D18C7C /* checkSceneListView.m */; };
+		1D6D877E1C7314CB00D18C7C /* checkScenesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6D877D1C7314CB00D18C7C /* checkScenesModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,10 +27,25 @@
 		1D6D87481C71723400D18C7C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1D6D874A1C71723400D18C7C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		1D6D874B1C71723400D18C7C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		1D6D874E1C71723400D18C7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1D6D87501C71723400D18C7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1D6D87531C71723400D18C7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D6D87551C71723400D18C7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D6D87651C72FA1A00D18C7C /* checkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = checkViewController.h; sourceTree = "<group>"; usesTabs = 0; };
+		1D6D87661C72FA1A00D18C7C /* checkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = checkViewController.m; sourceTree = "<group>"; };
+		1D6D876A1C730DEB00D18C7C /* ALView+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALView+PureLayout.h"; sourceTree = "<group>"; };
+		1D6D876B1C730DEB00D18C7C /* ALView+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALView+PureLayout.m"; sourceTree = "<group>"; };
+		1D6D876C1C730DEB00D18C7C /* NSArray+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+PureLayout.h"; sourceTree = "<group>"; };
+		1D6D876D1C730DEB00D18C7C /* NSArray+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+PureLayout.m"; sourceTree = "<group>"; };
+		1D6D876E1C730DEB00D18C7C /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
+		1D6D876F1C730DEB00D18C7C /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
+		1D6D87701C730DEB00D18C7C /* PureLayout+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PureLayout+Internal.h"; sourceTree = "<group>"; };
+		1D6D87711C730DEB00D18C7C /* PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayout.h; sourceTree = "<group>"; };
+		1D6D87721C730DEB00D18C7C /* PureLayoutDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayoutDefines.h; sourceTree = "<group>"; };
+		1D6D87761C730ED100D18C7C /* checkListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = checkListModel.h; sourceTree = "<group>"; };
+		1D6D87771C730ED100D18C7C /* checkListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = checkListModel.m; sourceTree = "<group>"; };
+		1D6D87791C7311E200D18C7C /* checkSceneListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = checkSceneListView.h; sourceTree = "<group>"; };
+		1D6D877A1C7311E200D18C7C /* checkSceneListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = checkSceneListView.m; sourceTree = "<group>"; };
+		1D6D877C1C7314CB00D18C7C /* checkScenesModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = checkScenesModel.h; sourceTree = "<group>"; };
+		1D6D877D1C7314CB00D18C7C /* checkScenesModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = checkScenesModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +78,12 @@
 		1D6D87431C71723400D18C7C /* record&check */ = {
 			isa = PBXGroup;
 			children = (
+				1D6D87681C730DEB00D18C7C /* Helper */,
 				1D6D875B1C71D8E200D18C7C /* recordTab */,
 				1D6D875F1C71D90E00D18C7C /* checkTab */,
 				1D6D874A1C71723400D18C7C /* ViewController.h */,
 				1D6D874B1C71723400D18C7C /* ViewController.m */,
-				1D6D874D1C71723400D18C7C /* Main.storyboard */,
 				1D6D87501C71723400D18C7C /* Assets.xcassets */,
-				1D6D87521C71723400D18C7C /* LaunchScreen.storyboard */,
 				1D6D87551C71723400D18C7C /* Info.plist */,
 				1D6D87441C71723400D18C7C /* Supporting Files */,
 			);
@@ -84,6 +103,7 @@
 		1D6D875B1C71D8E200D18C7C /* recordTab */ = {
 			isa = PBXGroup;
 			children = (
+				1D6D87631C72C1AE00D18C7C /* controller */,
 				1D6D875C1C71D8E200D18C7C /* model */,
 				1D6D875D1C71D8E200D18C7C /* view */,
 				1D6D875E1C71D8E200D18C7C /* viewController */,
@@ -115,6 +135,7 @@
 		1D6D875F1C71D90E00D18C7C /* checkTab */ = {
 			isa = PBXGroup;
 			children = (
+				1D6D87641C72C1C900D18C7C /* controller */,
 				1D6D87601C71D90E00D18C7C /* model */,
 				1D6D87611C71D90E00D18C7C /* view */,
 				1D6D87621C71D90E00D18C7C /* viewController */,
@@ -125,6 +146,10 @@
 		1D6D87601C71D90E00D18C7C /* model */ = {
 			isa = PBXGroup;
 			children = (
+				1D6D87761C730ED100D18C7C /* checkListModel.h */,
+				1D6D87771C730ED100D18C7C /* checkListModel.m */,
+				1D6D877C1C7314CB00D18C7C /* checkScenesModel.h */,
+				1D6D877D1C7314CB00D18C7C /* checkScenesModel.m */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -132,6 +157,8 @@
 		1D6D87611C71D90E00D18C7C /* view */ = {
 			isa = PBXGroup;
 			children = (
+				1D6D87791C7311E200D18C7C /* checkSceneListView.h */,
+				1D6D877A1C7311E200D18C7C /* checkSceneListView.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -141,6 +168,47 @@
 			children = (
 			);
 			path = viewController;
+			sourceTree = "<group>";
+		};
+		1D6D87631C72C1AE00D18C7C /* controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = controller;
+			path = viewController/controller;
+			sourceTree = "<group>";
+		};
+		1D6D87641C72C1C900D18C7C /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				1D6D87651C72FA1A00D18C7C /* checkViewController.h */,
+				1D6D87661C72FA1A00D18C7C /* checkViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		1D6D87681C730DEB00D18C7C /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				1D6D87691C730DEB00D18C7C /* pureLayout */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		1D6D87691C730DEB00D18C7C /* pureLayout */ = {
+			isa = PBXGroup;
+			children = (
+				1D6D876A1C730DEB00D18C7C /* ALView+PureLayout.h */,
+				1D6D876B1C730DEB00D18C7C /* ALView+PureLayout.m */,
+				1D6D876C1C730DEB00D18C7C /* NSArray+PureLayout.h */,
+				1D6D876D1C730DEB00D18C7C /* NSArray+PureLayout.m */,
+				1D6D876E1C730DEB00D18C7C /* NSLayoutConstraint+PureLayout.h */,
+				1D6D876F1C730DEB00D18C7C /* NSLayoutConstraint+PureLayout.m */,
+				1D6D87701C730DEB00D18C7C /* PureLayout+Internal.h */,
+				1D6D87711C730DEB00D18C7C /* PureLayout.h */,
+				1D6D87721C730DEB00D18C7C /* PureLayoutDefines.h */,
+			);
+			path = pureLayout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,9 +268,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D6D87541C71723400D18C7C /* LaunchScreen.storyboard in Resources */,
 				1D6D87511C71723400D18C7C /* Assets.xcassets in Resources */,
-				1D6D874F1C71723400D18C7C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,32 +279,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D6D87751C730DEB00D18C7C /* NSLayoutConstraint+PureLayout.m in Sources */,
 				1D6D874C1C71723400D18C7C /* ViewController.m in Sources */,
+				1D6D87671C72FA1A00D18C7C /* checkViewController.m in Sources */,
 				1D6D87491C71723400D18C7C /* AppDelegate.m in Sources */,
+				1D6D87731C730DEB00D18C7C /* ALView+PureLayout.m in Sources */,
+				1D6D87741C730DEB00D18C7C /* NSArray+PureLayout.m in Sources */,
+				1D6D87781C730ED100D18C7C /* checkListModel.m in Sources */,
+				1D6D877B1C7311E200D18C7C /* checkSceneListView.m in Sources */,
 				1D6D87461C71723400D18C7C /* main.m in Sources */,
+				1D6D877E1C7314CB00D18C7C /* checkScenesModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		1D6D874D1C71723400D18C7C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1D6D874E1C71723400D18C7C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		1D6D87521C71723400D18C7C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1D6D87531C71723400D18C7C /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1D6D87561C71723400D18C7C /* Debug */ = {
@@ -327,6 +381,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = "record&check/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -339,6 +394,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = "record&check/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

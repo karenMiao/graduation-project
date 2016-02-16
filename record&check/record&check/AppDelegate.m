@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-@class KMTabBarController;
+#import "checkViewController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -18,26 +19,11 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     
-    UITabBarController *mainTabVC = [[UITabBarController alloc]init];
-    // 1.添加第一个控制器
-    // 1.1 初始化
-    ViewController *oneVC = [[ViewController alloc]init];
-    // 1.2 把oneVC添加为UINavigationController的根控制器
-    UINavigationController *nav1 = [[UINavigationController alloc]initWithRootViewController:oneVC];
-    // 设置tabBar的标题
-    nav1.title = @"首页(下)";
-    [nav1.navigationBar setBackgroundColor:[UIColor yellowColor]];
-    //   [nav1.navigationBar setBackgroundImage:[UIImage imageNamed:@"commentary_num_bg"] forBarMetrics:UIBarMetricsDefault];
-    // 设置tabBar的图标
-    nav1.tabBarItem.image = [UIImage imageNamed:@"share_white"];
-    // 设置navigationBar的标题
-    oneVC.navigationItem.title = @"首页";
-    // 设置背景色（这些操作可以交给每个单独子控制器去做）
-    oneVC.view.backgroundColor = [UIColor whiteColor];
-    // 1.3 把UINavigationController交给UITabBarController管理
-    [self addChildViewController:nav1];
-
-    self.window.rootViewController = mainTabVC;
+    checkViewController *checkVC = [[checkViewController alloc]init];
+    UINavigationController *navigation = [[UINavigationController alloc]initWithRootViewController:checkVC];
+    [navigation.navigationBar setBackgroundColor:[UIColor yellowColor]];
+    [navigation setNavigationBarHidden:YES];
+    self.window.rootViewController = navigation;
     [self.window makeKeyAndVisible];
     return YES;    return YES;
 }

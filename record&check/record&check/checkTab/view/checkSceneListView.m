@@ -8,6 +8,8 @@
 
 #import "checkSceneListView.h"
 
+const NSInteger visibleItemsCount = 4;
+
 @implementation checkSceneListView
 
 /*

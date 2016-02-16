@@ -9,5 +9,13 @@
 #import <Foundation/Foundation.h>
 
 @interface checkListModel : NSObject
+/*检查场景*/
+@property(nonatomic,copy)NSString * scene;
+/*items个数*/
+@property(nonatomic,assign)NSInteger itemsCount;
+/*items文本数组*/
+@property(nonatomic,copy)NSMutableArray *itemsTextLabel;
+/*items图标数组*/
+@property(nonatomic,copy)NSMutableArray *itemsIconLabel;
 
 @end

@@ -10,4 +10,11 @@
 
 @interface checkScenesModel : NSObject
 
+/*检查的场景个数*/
+@property (nonatomic,assign)NSInteger sceneCount;
+/*场景标题数组*/
+@property (nonatomic,copy)NSMutableArray *scenesTitleArray;
+/*场景图标数组*/
+@property (nonatomic,copy)NSMutableArray *scenesIconArray;
+
 @end
