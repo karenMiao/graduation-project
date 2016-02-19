@@ -23,7 +23,7 @@
     UINavigationController *navigation = [[UINavigationController alloc]initWithRootViewController:checkVC];
     [navigation.navigationBar setBackgroundColor:[UIColor yellowColor]];
     [navigation setNavigationBarHidden:YES];
-    self.window.rootViewController = navigation;
+    self.window.rootViewController = checkVC;
     [self.window makeKeyAndVisible];
     return YES;    return YES;
 }

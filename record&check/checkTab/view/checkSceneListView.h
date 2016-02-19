@@ -10,12 +10,12 @@
 //models
 #import "checkScenesModel.h"
 
-@class YYOnlinePopView;
+@class checkSceneListView;
 @protocol YYOnlinePopViewDelegate <NSObject>
 
 @optional
 
-- (void)check:(YYOnlinePopView*)popView didSelectItemAtIndex:(NSInteger)index;
+- (void)KMcheckSceneListView:(checkSceneListView *)checkSceneListView didSelectItemAtIndex:(NSInteger)index;
 
 @end
 
