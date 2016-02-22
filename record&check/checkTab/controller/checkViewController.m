@@ -8,12 +8,17 @@
 
 #import "checkViewController.h"
 #import "checkSceneListView.h"
+#import "KMCheckItemsListView.h"
 #import "checkScenesModel.h"
-#import "PureLayout.h"
+
+
+const CGFloat scenesHeight = 150;
 
 @interface checkViewController ()
 @property (nonatomic,strong)checkScenesModel * scenesModel;
 @property (nonatomic,strong) checkSceneListView * scenesView;
+@property (nonatomic,strong)KMCheckItemsListView *checkItemsListView;
+
 @end
 
 @implementation checkViewController
@@ -23,6 +28,7 @@
     self.view.backgroundColor = [UIColor whiteColor];
    
     [self.view addSubview:self.scenesView];
+    [self.view addSubview:self.checkItemsListView];
 }
 - (void) viewWillLayoutSubviews{
     [_scenesView autoPinEdgeToSuperviewEdge:ALEdgeBottom];
@@ -39,9 +45,14 @@
 }
 - (checkSceneListView *)scenesView{
     if (!_scenesView) {
-        _scenesView = [[checkSceneListView alloc]initWithFrame:CGRectMake(0, 0,300, 100) checkScenesModel:self.scenesModel];
+        _scenesView = [[checkSceneListView alloc]initWithFrame:CGRectMake(0, 0,KM_DEVICE_WIDTH, scenesHeight) checkScenesModel:self.scenesModel];
     }
     return _scenesView;
 }
-
+- (KMCheckItemsListView *)checkItemsListView{
+    if (!_checkItemsListView) {
+        _checkItemsListView = [[KMCheckItemsListView alloc]initWithFrame:CGRectMake(0, KM_STATUSBAR_HEIGHT,KM_DEVICE_WIDTH,KM_DEVICE_HEIGHT- scenesHeight-KM_STATUSBAR_HEIGHT)];
+    }
+    return _checkItemsListView;
+}
 @end

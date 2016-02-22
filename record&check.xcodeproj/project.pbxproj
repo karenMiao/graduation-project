@@ -18,7 +18,9 @@
 		1D6D87781C730ED100D18C7C /* checkListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6D87771C730ED100D18C7C /* checkListModel.m */; };
 		1D6D877B1C7311E200D18C7C /* checkSceneListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6D877A1C7311E200D18C7C /* checkSceneListView.m */; };
 		1D6D877E1C7314CB00D18C7C /* checkScenesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6D877D1C7314CB00D18C7C /* checkScenesModel.m */; };
-		1D6D87AD1C76F76500D18C7C /* checkItemsListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6D87AC1C76F76500D18C7C /* checkItemsListView.m */; };
+		1D6D87B81C7AB61600D18C7C /* XLPlainFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6D87B71C7AB61600D18C7C /* XLPlainFlowLayout.m */; };
+		1D6D87BE1C7AB73500D18C7C /* KMCheckItemsListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6D87BD1C7AB73500D18C7C /* KMCheckItemsListView.m */; };
+		1D6D87C11C7AFAEA00D18C7C /* KMcheckItemsViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6D87C01C7AFAEA00D18C7C /* KMcheckItemsViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,9 +49,13 @@
 		1D6D877A1C7311E200D18C7C /* checkSceneListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = checkSceneListView.m; sourceTree = "<group>"; };
 		1D6D877C1C7314CB00D18C7C /* checkScenesModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = checkScenesModel.h; sourceTree = "<group>"; };
 		1D6D877D1C7314CB00D18C7C /* checkScenesModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = checkScenesModel.m; sourceTree = "<group>"; };
-		1D6D87AB1C76F76500D18C7C /* checkItemsListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = checkItemsListView.h; sourceTree = "<group>"; };
-		1D6D87AC1C76F76500D18C7C /* checkItemsListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = checkItemsListView.m; sourceTree = "<group>"; };
 		1D6D87AF1C76FF3700D18C7C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		1D6D87B61C7AB61600D18C7C /* XLPlainFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLPlainFlowLayout.h; sourceTree = "<group>"; };
+		1D6D87B71C7AB61600D18C7C /* XLPlainFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLPlainFlowLayout.m; sourceTree = "<group>"; };
+		1D6D87BC1C7AB73500D18C7C /* KMCheckItemsListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMCheckItemsListView.h; sourceTree = "<group>"; };
+		1D6D87BD1C7AB73500D18C7C /* KMCheckItemsListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMCheckItemsListView.m; sourceTree = "<group>"; };
+		1D6D87BF1C7AFAEA00D18C7C /* KMcheckItemsViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMcheckItemsViewCell.h; sourceTree = "<group>"; };
+		1D6D87C01C7AFAEA00D18C7C /* KMcheckItemsViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMcheckItemsViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,8 +170,10 @@
 			children = (
 				1D6D87791C7311E200D18C7C /* checkSceneListView.h */,
 				1D6D877A1C7311E200D18C7C /* checkSceneListView.m */,
-				1D6D87AB1C76F76500D18C7C /* checkItemsListView.h */,
-				1D6D87AC1C76F76500D18C7C /* checkItemsListView.m */,
+				1D6D87BC1C7AB73500D18C7C /* KMCheckItemsListView.h */,
+				1D6D87BD1C7AB73500D18C7C /* KMCheckItemsListView.m */,
+				1D6D87BF1C7AFAEA00D18C7C /* KMcheckItemsViewCell.h */,
+				1D6D87C01C7AFAEA00D18C7C /* KMcheckItemsViewCell.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -197,6 +205,8 @@
 		1D6D87681C730DEB00D18C7C /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				1D6D87B61C7AB61600D18C7C /* XLPlainFlowLayout.h */,
+				1D6D87B71C7AB61600D18C7C /* XLPlainFlowLayout.m */,
 				1D6D87691C730DEB00D18C7C /* pureLayout */,
 			);
 			path = Helper;
@@ -288,9 +298,11 @@
 			files = (
 				1D6D87751C730DEB00D18C7C /* NSLayoutConstraint+PureLayout.m in Sources */,
 				1D6D874C1C71723400D18C7C /* ViewController.m in Sources */,
+				1D6D87BE1C7AB73500D18C7C /* KMCheckItemsListView.m in Sources */,
 				1D6D87671C72FA1A00D18C7C /* checkViewController.m in Sources */,
-				1D6D87AD1C76F76500D18C7C /* checkItemsListView.m in Sources */,
+				1D6D87B81C7AB61600D18C7C /* XLPlainFlowLayout.m in Sources */,
 				1D6D87491C71723400D18C7C /* AppDelegate.m in Sources */,
+				1D6D87C11C7AFAEA00D18C7C /* KMcheckItemsViewCell.m in Sources */,
 				1D6D87731C730DEB00D18C7C /* ALView+PureLayout.m in Sources */,
 				1D6D87741C730DEB00D18C7C /* NSArray+PureLayout.m in Sources */,
 				1D6D87781C730ED100D18C7C /* checkListModel.m in Sources */,
@@ -389,7 +401,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/mjm/Documents/graduation_project/record&check/PrefixHeader.pch";
 				INFOPLIST_FILE = "record&check/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -402,7 +415,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/mjm/Documents/graduation_project/record&check/PrefixHeader.pch";
 				INFOPLIST_FILE = "record&check/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

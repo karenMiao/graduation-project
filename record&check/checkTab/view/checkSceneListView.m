@@ -43,7 +43,7 @@ const NSInteger visibleItemsCount = 4;
         [sceneBtn autoPinEdgeToSuperviewEdge:ALEdgeBottom];
         [sceneBtn autoPinEdgeToSuperviewEdge:ALEdgeLeft withInset:index*buttonWidth];
         [sceneBtn autoSetDimension:ALDimensionWidth toSize:buttonWidth];
-        [sceneBtn autoSetDimension:ALDimensionHeight toSize:height/2];
+        [sceneBtn autoSetDimension:ALDimensionHeight toSize:height/1.5];
     }
 }
 
